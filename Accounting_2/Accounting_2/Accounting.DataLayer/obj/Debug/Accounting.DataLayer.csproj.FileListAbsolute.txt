@@ -1,0 +1,46 @@
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll.config
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.pdb
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\Accounting.Utility.dll
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\Accounting.ViewModels.dll
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.dll
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\Accounting.Utility.pdb
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\Accounting.ViewModels.pdb
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.xml
+E:\پروژه های من\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\پروژه های من\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csprojResolveAssemblyReference.cache
+E:\پروژه های من\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.dll
+E:\پروژه های من\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll.config
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\Accounting.Utility.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\Accounting.ViewModels.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\Accounting.Utility.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\Accounting.ViewModels.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.xml
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csprojAssemblyReference.cache
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.CoreCompileInputs.cache
+E:\پروژه های من\Accounting_2\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.CopyComplete
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll.config
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\Accounting.Utility.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\Accounting.ViewModels.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\EntityFramework.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\Accounting.Utility.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\Accounting.ViewModels.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\EntityFramework.xml
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csprojAssemblyReference.cache
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.CopyComplete
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.pdb

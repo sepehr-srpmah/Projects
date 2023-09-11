@@ -1,0 +1,17 @@
+E:\پروژه های من\Accounting\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.dll
+E:\پروژه های من\Accounting\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.pdb
+E:\پروژه های من\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.csprojResolveAssemblyReference.cache
+E:\پروژه های من\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.dll
+E:\پروژه های من\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.csprojAssemblyReference.cache
+E:\پروژه های من\Accounting_2\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.csproj.CoreCompileInputs.cache
+E:\پروژه های من\Accounting_2\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.csprojAssemblyReference.cache
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.pdb

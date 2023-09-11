@@ -1,0 +1,20 @@
+E:\پروژه های من\Accounting\Accounting.Utility\bin\Debug\Accounting.Utility.dll
+E:\پروژه های من\Accounting\Accounting.Utility\bin\Debug\Accounting.Utility.pdb
+E:\پروژه های من\Accounting\Accounting.Utility\obj\Debug\Accounting.Utility.csprojResolveAssemblyReference.cache
+E:\پروژه های من\Accounting\Accounting.Utility\obj\Debug\Accounting.Utility.dll
+E:\پروژه های من\Accounting\Accounting.Utility\obj\Debug\Accounting.Utility.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.Utility\bin\Debug\Accounting.Utility.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.Utility\bin\Debug\Accounting.Utility.pdb
+E:\پروژه های من\Accounting_2\Accounting\Accounting.Utility\obj\Debug\Accounting.Utility.csprojAssemblyReference.cache
+E:\پروژه های من\Accounting_2\Accounting\Accounting.Utility\obj\Debug\Accounting.Utility.csproj.CoreCompileInputs.cache
+E:\پروژه های من\Accounting_2\Accounting\Accounting.Utility\obj\Debug\Accounting.Utility.dll
+E:\پروژه های من\Accounting_2\Accounting\Accounting.Utility\obj\Debug\Accounting.Utility.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\bin\Debug\Accounting.Utility.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\bin\Debug\Accounting.Utility.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\bin\Debug\Accounting.ViewModels.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\bin\Debug\Accounting.ViewModels.pdb
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\obj\Debug\Accounting.Utility.csprojAssemblyReference.cache
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\obj\Debug\Accounting.Utility.csproj.CoreCompileInputs.cache
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\obj\Debug\Accounting.Utility.csproj.CopyComplete
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\obj\Debug\Accounting.Utility.dll
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.Utility\obj\Debug\Accounting.Utility.pdb
