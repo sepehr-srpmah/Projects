@@ -215,12 +215,12 @@ namespace Accounting.App.Views.Transaction
                     );
             }
 
-            stiReport.Load(Application.StartupPath + "/Report.mrt");
+            stiReport.Load(Directory.GetParent(Directory.GetParent(Application.StartupPath).ToString()) + "/Report.mrt");
             stiReport.RegData("DT", dtPrint);
             stiReport.Show();
         }
 
-        private async void FrmTransaction_FormClosed(object sender, FormClosedEventArgs e)
+        private void dgvTransactions_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

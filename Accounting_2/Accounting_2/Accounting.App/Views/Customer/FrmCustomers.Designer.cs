@@ -34,13 +34,13 @@ namespace Accounting.App.Views.Customer
             this.btnEditCustomer = new System.Windows.Forms.ToolStripButton();
             this.btnDeleteCustomer = new System.Windows.Forms.ToolStripButton();
             this.btnRefresh = new System.Windows.Forms.ToolStripButton();
+            this.btnPrintReport = new System.Windows.Forms.ToolStripButton();
             this.dgvCustomers = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Mobile = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Image = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnPrintReport = new System.Windows.Forms.ToolStripButton();
             this.stiReport = new Stimulsoft.Report.StiReport();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
@@ -108,6 +108,17 @@ namespace Accounting.App.Views.Customer
             this.btnRefresh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
+            // btnPrintReport
+            // 
+            this.btnPrintReport.Image = global::Accounting.App.Properties.Resources._1371476276_Print;
+            this.btnPrintReport.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.btnPrintReport.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnPrintReport.Name = "btnPrintReport";
+            this.btnPrintReport.Size = new System.Drawing.Size(44, 69);
+            this.btnPrintReport.Text = "چاپ";
+            this.btnPrintReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPrintReport.Click += new System.EventHandler(this.btnPrintReport_Click);
+            // 
             // dgvCustomers
             // 
             this.dgvCustomers.AllowUserToAddRows = false;
@@ -164,17 +175,6 @@ namespace Accounting.App.Views.Customer
             this.Image.Name = "Image";
             this.Image.ReadOnly = true;
             this.Image.Visible = false;
-            // 
-            // btnPrintReport
-            // 
-            this.btnPrintReport.Image = global::Accounting.App.Properties.Resources.icons8_print_50;
-            this.btnPrintReport.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.btnPrintReport.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnPrintReport.Name = "btnPrintReport";
-            this.btnPrintReport.Size = new System.Drawing.Size(54, 69);
-            this.btnPrintReport.Text = "چاپ";
-            this.btnPrintReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnPrintReport.Click += new System.EventHandler(this.btnPrintReport_Click);
             // 
             // stiReport
             // 

@@ -71,7 +71,7 @@ namespace Accounting.App.Views.Transaction
             this.groupBox1.Controls.Add(this.rdoRecieve);
             this.groupBox1.Controls.Add(this.txtFilter);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 63);
+            this.groupBox1.Location = new System.Drawing.Point(12, 75);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(537, 97);
             this.groupBox1.TabIndex = 0;
@@ -192,7 +192,6 @@ namespace Accounting.App.Views.Transaction
             this.dgvTransactions.AllowUserToDeleteRows = false;
             this.dgvTransactions.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTransactions.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
-            this.dgvTransactions.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvTransactions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTransactions.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -200,12 +199,14 @@ namespace Accounting.App.Views.Transaction
             this.FullName,
             this.Amount,
             this.DateCreated});
-            this.dgvTransactions.Location = new System.Drawing.Point(12, 166);
+            this.dgvTransactions.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgvTransactions.Location = new System.Drawing.Point(0, 178);
             this.dgvTransactions.MultiSelect = false;
             this.dgvTransactions.Name = "dgvTransactions";
             this.dgvTransactions.ReadOnly = true;
-            this.dgvTransactions.Size = new System.Drawing.Size(537, 246);
+            this.dgvTransactions.Size = new System.Drawing.Size(561, 261);
             this.dgvTransactions.TabIndex = 1;
+            this.dgvTransactions.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTransactions_CellContentClick);
             // 
             // ID
             // 
@@ -253,7 +254,7 @@ namespace Accounting.App.Views.Transaction
             this.btnRefresh});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(561, 72);
+            this.toolStrip1.Size = new System.Drawing.Size(561, 62);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -263,7 +264,7 @@ namespace Accounting.App.Views.Transaction
             this.btnEditTransaction.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnEditTransaction.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnEditTransaction.Name = "btnEditTransaction";
-            this.btnEditTransaction.Size = new System.Drawing.Size(85, 69);
+            this.btnEditTransaction.Size = new System.Drawing.Size(85, 59);
             this.btnEditTransaction.Text = "ویرایش تراکنش";
             this.btnEditTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEditTransaction.Click += new System.EventHandler(this.btnEditTransaction_Click);
@@ -274,18 +275,18 @@ namespace Accounting.App.Views.Transaction
             this.btnRemoveTransaction.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnRemoveTransaction.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnRemoveTransaction.Name = "btnRemoveTransaction";
-            this.btnRemoveTransaction.Size = new System.Drawing.Size(74, 69);
+            this.btnRemoveTransaction.Size = new System.Drawing.Size(74, 59);
             this.btnRemoveTransaction.Text = "حذف تراکنش";
             this.btnRemoveTransaction.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnRemoveTransaction.Click += new System.EventHandler(this.btnRemoveTransaction_Click);
             // 
             // btnPrintReport
             // 
-            this.btnPrintReport.Image = global::Accounting.App.Properties.Resources.icons8_print_50;
+            this.btnPrintReport.Image = global::Accounting.App.Properties.Resources._1371476276_Print;
             this.btnPrintReport.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnPrintReport.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnPrintReport.Name = "btnPrintReport";
-            this.btnPrintReport.Size = new System.Drawing.Size(66, 69);
+            this.btnPrintReport.Size = new System.Drawing.Size(66, 59);
             this.btnPrintReport.Text = "چاپ گزارش";
             this.btnPrintReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPrintReport.Click += new System.EventHandler(this.btnPrintReport_Click);
@@ -296,7 +297,7 @@ namespace Accounting.App.Views.Transaction
             this.btnRefresh.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.btnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(60, 69);
+            this.btnRefresh.Size = new System.Drawing.Size(60, 59);
             this.btnRefresh.Text = "بروزرسانی";
             this.btnRefresh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
@@ -326,7 +327,7 @@ namespace Accounting.App.Views.Transaction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(561, 424);
+            this.ClientSize = new System.Drawing.Size(561, 439);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.dgvTransactions);
             this.Controls.Add(this.groupBox1);

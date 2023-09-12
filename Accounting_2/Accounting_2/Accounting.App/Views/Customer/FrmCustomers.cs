@@ -166,7 +166,7 @@ namespace Accounting.App.Views.Customer
                     );
             }
 
-            stiReport.Load(Application.StartupPath + "\\ReportOfCustomers.mrt");
+            stiReport.Load(Directory.GetParent(Directory.GetParent(Application.StartupPath).ToString()) + "\\ReportOfCustomers.mrt");
             stiReport.RegData("DT", dt);
             stiReport.Show();
         }

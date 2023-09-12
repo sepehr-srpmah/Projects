@@ -72,7 +72,6 @@ namespace Accounting.App.Views
             this.toolStrip1.Size = new System.Drawing.Size(610, 72);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
-            this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
             // 
             // statusStrip1
             // 
@@ -94,7 +93,6 @@ namespace Accounting.App.Views
             this.lblTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblTime.Size = new System.Drawing.Size(33, 17);
             this.lblTime.Text = "زمان";
-            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // lblDate
             // 

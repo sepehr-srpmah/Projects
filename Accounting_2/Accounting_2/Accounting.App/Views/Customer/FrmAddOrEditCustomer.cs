@@ -149,5 +149,10 @@ namespace Accounting.App.Views.Customer
         {
             UploadImage();
         }
+
+        private void txtMobile_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

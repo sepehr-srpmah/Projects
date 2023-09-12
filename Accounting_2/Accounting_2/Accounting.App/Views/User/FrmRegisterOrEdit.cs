@@ -16,14 +16,14 @@ namespace Accounting.App.Views
     public partial class FrmRegisterOrEdit : Form
     {
 
-        public string LastImage_Location = "";
+        public string lastImage_Location = "";
 
         public FrmRegisterOrEdit()
         {
             InitializeComponent();
         }
 
-        private void FrmRegisterOrEdit_Load(object sender, EventArgs e)
+        private async void FrmRegisterOrEdit_Load(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(GlobalVariables.Current_User))
             {
@@ -38,8 +38,8 @@ namespace Accounting.App.Views
 
                 using (UnitOfWork db = new UnitOfWork())
                 {
-                    var user = db.UserRepository
-                        .GetById(GlobalVariables.Current_User);
+                    var user = await db.UserRepository
+                        .GetByIdAsync(GlobalVariables.Current_User);
 
                     txtUserName.Text = user.UserName;
                     txtPassword.Text = user.Password;
@@ -56,7 +56,7 @@ namespace Accounting.App.Views
             }
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
+        private async void btnSave_Click(object sender, EventArgs e)
         {
             if (BaseValidator.IsFormValid(this.components))
             {
@@ -76,15 +76,15 @@ namespace Accounting.App.Views
 
                 using (UnitOfWork db = new UnitOfWork())
                 {
-                    if (db.UserRepository.GetById(userName) != null && string.IsNullOrEmpty(GlobalVariables.Current_User))
+                    if ((await db.UserRepository.GetByIdAsync(userName)) != null && string.IsNullOrEmpty(GlobalVariables.Current_User))
                     {
                         RtlMessageBox.Show("کابر در حال حاظر ثبت نام شده است", "توجه", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     else
                     {
-                        if (!string.IsNullOrEmpty(LastImage_Location))
+                        if (!string.IsNullOrEmpty(lastImage_Location))
                         {
-                            File.Delete(LastImage_Location);
+                            File.Delete(lastImage_Location);
                         }
 
                         if (!string.IsNullOrEmpty(pcUser.ImageLocation))
@@ -93,19 +93,19 @@ namespace Accounting.App.Views
                             user.Image = imageName;
                             pcUser.Image.Save(path + imageName);
 
-                            LastImage_Location = path + imageName;
+                            lastImage_Location = path + imageName;
                         }
 
                         if (string.IsNullOrEmpty(GlobalVariables.Current_User))
                         {
-                            db.UserRepository.Add(user);
+                            await db.UserRepository.AddAsync(user);
                         }
                         else
                         {
-                            db.UserRepository.Update(user);
+                            await db.UserRepository.UpdateAsync(user);
                         }
 
-                        db.Save();
+                        await db.SaveAsync();
 
                         GlobalVariables.Current_User = userName;
 

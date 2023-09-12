@@ -13,5 +13,7 @@ namespace Accounting.DataLayer.Repositories
             string password);
 
         Task<IEnumerable<User>> GetByFilterAsync(string filter);
+
+        Task<IEnumerable<string>> GetUserNamesAsync(string filter);
     }
 }

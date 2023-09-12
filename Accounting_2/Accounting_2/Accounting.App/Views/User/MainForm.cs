@@ -51,11 +51,6 @@ namespace Accounting.App.Views
             InitializeComponent();
         }
 
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
         private async void MainForm_Load(object sender, EventArgs e)
         {
             await BindGridAsync();
@@ -139,11 +134,6 @@ namespace Accounting.App.Views
         {
             lblTime.Text = DateTime.Now.ToPersianDateTime().ToString("HH:mm:ss");
             lblDate.Text = DateTime.Now.ToPersianDate().ToString("yyyy/MM/dd");
-        }
-
-        private void lblTime_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void MainForm_Leave(object sender, EventArgs e)

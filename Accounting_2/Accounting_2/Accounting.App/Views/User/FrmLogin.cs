@@ -21,21 +21,6 @@ namespace Accounting.App.Views
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmLogin_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void lblRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FrmRegisterOrEdit frmRegisterOrEdit = new FrmRegisterOrEdit();
@@ -48,7 +33,7 @@ namespace Accounting.App.Views
             }
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private async void btnLogin_Click(object sender, EventArgs e)
         {
             string userName = txtUserName.Text;
             string password = txtPassword.Text;
@@ -67,7 +52,7 @@ namespace Accounting.App.Views
 
                     using (UnitOfWork db = new UnitOfWork())
                     {
-                        var user = db.UserRepository.GetUserByUserNameAndPassword(userName, password);
+                        var user = await db.UserRepository.GetUserByUserNameAndPasswordAsync(userName, password);
 
                         if (user != null)
                         {
@@ -83,6 +68,32 @@ namespace Accounting.App.Views
                     }
                 }
             }
+        }
+
+        private async void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+            var coll = new AutoCompleteStringCollection();
+
+            using (UnitOfWork db = new UnitOfWork())
+            {
+                var users = await db.UserRepository.GetUserNamesAsync(txtUserName.Text.Trim());
+
+                if (users.Any())
+                {
+                    coll.AddRange(users.ToArray());
+                }
+
+                txtUserName.AutoCompleteCustomSource = coll;
+            }
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
         }
     }
 }

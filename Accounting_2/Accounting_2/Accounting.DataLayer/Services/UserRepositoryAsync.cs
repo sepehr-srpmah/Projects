@@ -67,6 +67,17 @@ namespace Accounting.DataLayer.Services
                 user.Password.Contains(filter));
         }
 
+        public async Task<IEnumerable<string>> GetUserNamesAsync(string filter = "")
+        {
+            IQueryable<User> query = _db.User;
+            if (!string.IsNullOrEmpty(filter))
+            {
+                query.Where(u => u.UserName.Contains(filter));
+            }
+
+            return await query.Select(u => u.UserName).ToListAsync();
+        }
+
         public async Task<User> GetByIdAsync(object id)
         {
             return await _db.User.FindAsync((string)id);

@@ -46,38 +46,45 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("2  Elham", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.Location = new System.Drawing.Point(12, 209);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 13);
+            this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "نام کاربری :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("2  Elham", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.Location = new System.Drawing.Point(13, 242);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.Size = new System.Drawing.Size(55, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "کلمه عبور :";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(78, 206);
+            this.txtUserName.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Location = new System.Drawing.Point(78, 203);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(148, 21);
+            this.txtUserName.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtUserName.Size = new System.Drawing.Size(148, 28);
             this.txtUserName.TabIndex = 3;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(78, 239);
+            this.txtPassword.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(78, 237);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(148, 21);
+            this.txtPassword.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtPassword.Size = new System.Drawing.Size(148, 25);
             this.txtPassword.TabIndex = 4;
             // 
             // btnSave
             // 
+            this.btnSave.Font = new System.Drawing.Font("MRT_SS Three", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnSave.Location = new System.Drawing.Point(16, 281);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(56, 23);
@@ -88,6 +95,7 @@
             // 
             // btnUploadImage
             // 
+            this.btnUploadImage.Font = new System.Drawing.Font("MRT_SS Three", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnUploadImage.Location = new System.Drawing.Point(78, 281);
             this.btnUploadImage.Name = "btnUploadImage";
             this.btnUploadImage.Size = new System.Drawing.Size(73, 23);
@@ -98,6 +106,7 @@
             // 
             // btnUnloadImage
             // 
+            this.btnUnloadImage.Font = new System.Drawing.Font("MRT_SS Three", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btnUnloadImage.Location = new System.Drawing.Point(157, 281);
             this.btnUnloadImage.Name = "btnUnloadImage";
             this.btnUnloadImage.Size = new System.Drawing.Size(69, 23);

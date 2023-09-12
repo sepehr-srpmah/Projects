@@ -63,6 +63,16 @@ namespace Accounting.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1371476276_Print {
+            get {
+                object obj = ResourceManager.GetObject("1371476276_Print", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1371476368_Synchronize {
             get {
                 object obj = ResourceManager.GetObject("1371476368_Synchronize", resourceCulture);
