@@ -5,12 +5,47 @@ using Accounting.Utility.Convertor;
 using System;
 using System.Drawing;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Accounting.App.Views
 {
     public partial class MainForm : Form
     {
+        public delegate Task Notify();
+
+        public static event Notify TransactionEdited;
+
+        public static event Notify TransactionDeleted;
+
+        public async Task Alert()
+        {
+            if (TransactionDeleted != null)
+            {
+                await OnTransactionDeleted();
+            }
+            else if (TransactionEdited != null)
+            {
+                await OnTransactionEdited();
+            }
+        }
+
+        protected virtual async Task OnTransactionEdited()
+        {
+            await Task.Run(delegate ()
+            {
+                TransactionEdited?.Invoke();
+            });
+        }
+
+        protected virtual async Task OnTransactionDeleted()
+        {
+            await Task.Run(delegate ()
+            {
+                TransactionDeleted?.Invoke();
+            });
+        }
+
         public MainForm()
         {
             InitializeComponent();
@@ -21,21 +56,21 @@ namespace Accounting.App.Views
 
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private async void MainForm_Load(object sender, EventArgs e)
         {
-            BindGrid();
+            await BindGridAsync();
         }
 
-        private void BindGrid()
+        public async Task BindGridAsync()
         {
             using (UnitOfWork db = new UnitOfWork())
             {
-                var customers = db.CustomerRepository.Get().Where(customer => customer.UserName == GlobalVariables.Current_User).ToList();
+                var customers = await db.CustomerRepository.GetAsync(customer => customer.UserName == GlobalVariables.Current_User);
 
                 long recieve = 0;
                 long pay = 0;
 
-                if (customers.Count > 0)
+                if (customers.Any())
                 {
                     foreach (var customer in customers)
                     {
@@ -76,7 +111,7 @@ namespace Accounting.App.Views
             }
         }
 
-        private void btnManageCustomers_Click(object sender, EventArgs e)
+        private async void btnManageCustomers_Click(object sender, EventArgs e)
         {
             FrmCustomers frmCustomers = new FrmCustomers();
             frmCustomers.ShowDialog();
@@ -88,7 +123,7 @@ namespace Accounting.App.Views
             frmTransactions.ShowDialog();
         }
 
-        private void btnAddNewTransaction_Click(object sender, EventArgs e)
+        private async void btnAddNewTransaction_Click(object sender, EventArgs e)
         {
             FrmAddOrEditTransaction frmAddOrEditTransaction = new FrmAddOrEditTransaction();
             frmAddOrEditTransaction.TransactionId = 0;
@@ -96,6 +131,7 @@ namespace Accounting.App.Views
             if (frmAddOrEditTransaction.ShowDialog() == DialogResult.OK)
             {
                 RtlMessageBox.Show("عملیات با موفقیت انجام شد !", "پیغام");
+                await BindGridAsync();
             }
         }
 
@@ -120,9 +156,9 @@ namespace Accounting.App.Views
             Application.Exit();
         }
 
-        private void btnRefresh_Click(object sender, EventArgs e)
+        private async void btnRefresh_Click(object sender, EventArgs e)
         {
-            BindGrid();
+            await BindGridAsync();
         }
 
         private void btnInformationOrEdit_Click(object sender, EventArgs e)

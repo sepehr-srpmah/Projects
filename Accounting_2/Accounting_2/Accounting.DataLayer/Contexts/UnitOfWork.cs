@@ -58,12 +58,9 @@ namespace Accounting.DataLayer.Contexts
             context.SaveChanges();
         }
 
-        public Task SaveAsync()
+        public async Task SaveAsync()
         {
-            return Task.Run(delegate ()
-            {
-                context.SaveChangesAsync();
-            });
+            await context.SaveChangesAsync();
         }
 
         public void Dispose()

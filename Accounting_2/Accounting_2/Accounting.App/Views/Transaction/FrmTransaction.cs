@@ -138,6 +138,14 @@ namespace Accounting.App.Views.Transaction
                     }
 
                     RtlMessageBox.Show("حذف با موفقیت انجام شد !", "پیغام");
+
+                    await BindGrid();
+
+                    using (MainForm mainForm = new MainForm())
+                    {
+                        MainForm.TransactionDeleted += mainForm.BindGridAsync;
+                        await mainForm.Alert();
+                    }
                 }
                 else
                 {
@@ -159,6 +167,12 @@ namespace Accounting.App.Views.Transaction
                 {
                     RtlMessageBox.Show("ویرایش با موفقیت انجام شد !", "پیغام");
                     await BindGrid();
+
+                    using (MainForm mainForm = new MainForm())
+                    {
+                        MainForm.TransactionEdited += mainForm.BindGridAsync;
+                        await mainForm.Alert();
+                    }
                 }
             }
             else
@@ -204,6 +218,11 @@ namespace Accounting.App.Views.Transaction
             stiReport.Load(Application.StartupPath + "/Report.mrt");
             stiReport.RegData("DT", dtPrint);
             stiReport.Show();
+        }
+
+        private async void FrmTransaction_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
         }
     }
 }

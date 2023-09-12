@@ -13,11 +13,11 @@ namespace Accounting.DataLayer.Services
 {
     public partial class UserRepository : IUserRepository
     {
-        public Task AddAsync(User entity)
+        public async Task AddAsync(User entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     _db.User.Add(entity);
                 });
@@ -28,11 +28,11 @@ namespace Accounting.DataLayer.Services
             }
         }
 
-        public Task DeleteAsync(User entity)
+        public async Task DeleteAsync(User entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     _db.User.Remove(entity);
                 });
@@ -78,11 +78,11 @@ namespace Accounting.DataLayer.Services
             return user.FirstOrDefault();
         }
 
-        public Task UpdateAsync(User entity)
+        public async Task UpdateAsync(User entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     var local = _db.Set<User>()
                     .Local

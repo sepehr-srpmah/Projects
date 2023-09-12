@@ -73,7 +73,6 @@ E:\پروژه های من\Accounting_2\Accounting\Accounting.App\bin\Debug\Accou
 E:\پروژه های من\Accounting_2\Accounting\Accounting.App\obj\Debug\Accounting.App.csprojAssemblyReference.cache
 E:\پروژه های من\Accounting_2\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.CoreCompileInputs.cache
 E:\پروژه های من\Accounting_2\Accounting\Accounting.App\obj\Debug\Accounting.App.csproj.CopyComplete
-C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.csprojAssemblyReference.cache
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.Properties.Resources.resources
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.Views.Admin.FrmManageUsers.resources
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.Views.Customer.FrmAddOrEditCustomer.resources
@@ -84,7 +83,6 @@ C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\o
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.Views.Transaction.FrmAddOrEditTransaction.resources
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.Views.Transaction.FrmTransaction.resources
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.csproj.GenerateResource.cache
-C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.csproj.CoreCompileInputs.cache
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.exe
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.pdb
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Accounting.App.exe.config
@@ -101,7 +99,6 @@ C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\b
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Stimulsoft.Report.Win.dll
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Stimulsoft.Controls.Win.dll
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Accounting.DataLayer.pdb
-C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Accounting.DataLayer.dll.config
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Accounting.Utility.pdb
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Accounting.ViewModels.pdb
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\EntityFramework.xml
@@ -111,4 +108,4 @@ C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\b
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Stimulsoft.Report.xml
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Stimulsoft.Report.Win.xml
 C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\bin\Debug\Stimulsoft.Controls.Win.xml
-C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.csproj.CopyComplete
+C:\Users\mehrsa mahmoudi\source\repos\Accounting_2\Accounting_2\Accounting.App\obj\Debug\Accounting.App.csprojResolveAssemblyReference.cache

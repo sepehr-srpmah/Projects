@@ -14,11 +14,11 @@ namespace Accounting.DataLayer.Services
 {
     public partial class TransactionRepository : ITransactionRepository
     {
-        public Task UpdateAsync(Transaction entity)
+        public async Task UpdateAsync(Transaction entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     var local = _db.Set<Transaction>()
                         .Local
@@ -56,11 +56,11 @@ namespace Accounting.DataLayer.Services
         }
 
 
-        public Task DeleteAsync(Transaction entity)
+        public async Task DeleteAsync(Transaction entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     _db.Entry(entity).State = EntityState.Deleted;
                 });
@@ -71,21 +71,19 @@ namespace Accounting.DataLayer.Services
             }
         }
 
-        public Task DeleteAsync(object id)
+        public async Task DeleteAsync(object id)
         {
-            return Task.Run(delegate ()
-            {
-                var transaction = GetByIdAsync(id);
-                DeleteAsync(transaction);
-            });
+
+            var transaction = await GetByIdAsync(id);
+            await DeleteAsync(transaction);
         }
 
 
-        public Task AddAsync(Transaction entity)
+        public async Task AddAsync(Transaction entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     _db.Entry(entity).State = EntityState.Added;
                 });

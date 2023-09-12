@@ -50,11 +50,11 @@ namespace Accounting.DataLayer.Services
                     }).ToListAsync();
         }
 
-        public Task AddAsync(Customer entity)
+        public async Task AddAsync(Customer entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     _db.Customer.Add(entity);
                 });
@@ -65,11 +65,11 @@ namespace Accounting.DataLayer.Services
             }
         }
 
-        public Task DeleteAsync(Customer entity)
+        public async Task DeleteAsync(Customer entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     _db.Customer.Remove(entity);
                 });
@@ -80,13 +80,10 @@ namespace Accounting.DataLayer.Services
             }
         }
 
-        public Task DeleteAsync(object id)
+        public async Task DeleteAsync(object id)
         {
-            return Task.Run(delegate ()
-            {
-                var customer = GetByIdAsync(id);
-                DeleteAsync(customer);
-            });
+            var customer = await GetByIdAsync(id);
+            await DeleteAsync(customer);
         }
 
         public async Task<IEnumerable<Customer>> GetAsync(Expression<Func<Customer, bool>> where=null)
@@ -121,11 +118,11 @@ namespace Accounting.DataLayer.Services
             }
         }
 
-        public Task UpdateAsync(Customer entity)
+        public async Task UpdateAsync(Customer entity)
         {
             try
             {
-                return Task.Run(delegate ()
+                await Task.Run(delegate ()
                 {
                     var local = _db.Customer.Local.FirstOrDefault(c => c.ID == entity.ID);
 
