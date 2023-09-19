@@ -1,0 +1,16 @@
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\SalaryCalculatorTestProject.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\SalaryCalculatorTestProject.pdb
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Calculator2.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Calculator2.pdb
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\obj\Debug\SalaryCalculatorTestProject.csprojAssemblyReference.cache
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\obj\Debug\SalaryCalculatorTestProject.csproj.CoreCompileInputs.cache
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\obj\Debug\SalaryCalculatorTestProject.csproj.CopyComplete
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\obj\Debug\SalaryCalculatorTestProject.dll
+C:\Users\Soheil\source\repos\SalaryCalculatorTestProject\obj\Debug\SalaryCalculatorTestProject.pdb
