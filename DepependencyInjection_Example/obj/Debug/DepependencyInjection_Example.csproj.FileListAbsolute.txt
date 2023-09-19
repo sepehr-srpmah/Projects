@@ -1,7 +1,0 @@
-C:\Users\Soheil\source\repos\DepependencyInjection_Example\bin\Debug\DepependencyInjection_Example.exe.config
-C:\Users\Soheil\source\repos\DepependencyInjection_Example\bin\Debug\DepependencyInjection_Example.exe
-C:\Users\Soheil\source\repos\DepependencyInjection_Example\bin\Debug\DepependencyInjection_Example.pdb
-C:\Users\Soheil\source\repos\DepependencyInjection_Example\obj\Debug\DepependencyInjection_Example.csprojAssemblyReference.cache
-C:\Users\Soheil\source\repos\DepependencyInjection_Example\obj\Debug\DepependencyInjection_Example.csproj.CoreCompileInputs.cache
-C:\Users\Soheil\source\repos\DepependencyInjection_Example\obj\Debug\DepependencyInjection_Example.exe
-C:\Users\Soheil\source\repos\DepependencyInjection_Example\obj\Debug\DepependencyInjection_Example.pdb

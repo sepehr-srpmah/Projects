@@ -1,7 +1,0 @@
-C:\Users\Soheil\source\repos\CSharp7_Features_Example\bin\Debug\CSharp7_Features_Example.exe.config
-C:\Users\Soheil\source\repos\CSharp7_Features_Example\bin\Debug\CSharp7_Features_Example.exe
-C:\Users\Soheil\source\repos\CSharp7_Features_Example\bin\Debug\CSharp7_Features_Example.pdb
-C:\Users\Soheil\source\repos\CSharp7_Features_Example\obj\Debug\CSharp7_Features_Example.csprojAssemblyReference.cache
-C:\Users\Soheil\source\repos\CSharp7_Features_Example\obj\Debug\CSharp7_Features_Example.csproj.CoreCompileInputs.cache
-C:\Users\Soheil\source\repos\CSharp7_Features_Example\obj\Debug\CSharp7_Features_Example.exe
-C:\Users\Soheil\source\repos\CSharp7_Features_Example\obj\Debug\CSharp7_Features_Example.pdb
